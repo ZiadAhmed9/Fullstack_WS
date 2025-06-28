@@ -1,0 +1,27 @@
+/* Write your code here: */
+h1,h2{
+    color: blueviolet;
+}
+
+/*parent and child */
+div > p{
+    color: firebrick;
+}
+
+/*Descendant selector */
+
+.box li{
+    color: darkorange;
+}
+
+
+/* Chaining Selector */
+li.done{
+    color: green;
+}
+
+/*COmbvining all the selectors */
+
+ul p.done{
+    font-size: .5rem;
+}
